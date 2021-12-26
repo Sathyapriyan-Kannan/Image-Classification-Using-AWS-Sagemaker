@@ -42,10 +42,10 @@ Pytorch AWS Instance
 
 The `hpo.py` script is used to perform hyperparameter tuning.
 
-![Hyperparameters Tuning](Snapshots/Hyperparameter_Tuning_Job.png) ![Hyperparameters](Snapshots/Hyperparameters.png)
+![Hyperparameters Tuning](Snapshots/Hyperparameter_Tuning_Job.png "Hyperparameters Tuning") ![Hyperparameters](Snapshots/Hyperparameters.png "Hyperparameters")
 
 ###Training Jobs
-![Training Jobs](Snapshots/Training Jobs.png)
+![Training Jobs](Snapshots/Training Jobs.png "Training Jobs")
 
 ## Debugging and Profiling
 The Graphical representation of the Cross Entropy Loss is shown below.
@@ -60,7 +60,7 @@ Is there some anomalous behaviour in your debugging output? If so, what is the e
 ### Profiler Output
 The profiler report can be found [here](profiler_report/profiler-output/profiler-report.html).
 
-![Events](Snapshots/Events Logging.png)
+![Events](Snapshots/Events Logging.png "Events Bridge")
 ## Model Deployment
 - Model was deployed to a "ml.t2.medium" instance type and "endpoint_inference.py" script is used to setup and deploy our working endpoint.
 - For testing purposes ,few test images are stored in the "testImages" folder.
@@ -69,5 +69,5 @@ The profiler report can be found [here](profiler_report/profiler-output/profiler
     1. Using the Predictor Object 
     2. Using the boto3 client.
   
-![End Point Deployment](Snapshots/End Point.png)
+![End Point Deployment](Snapshots/End Point.png "End Point")
 
